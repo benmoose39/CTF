@@ -22,7 +22,6 @@ headers = {
     'Accept-Language': 'en-US,en;q=0.9',
 }
 
-
 while True:
 	os.system(f'wget {url}static/otp.png -O otp.png')
 	#os.system('tesseract otp.png otp')
